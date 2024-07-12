@@ -13,3 +13,7 @@ This is a small attempt to use Bash scripting so that I can easily detect and ri
 - [ ] Handbrake 
   - [ ] Profiles for DVD and Blu-Ray
   - [ ] CLI for Encoding
+
+## Random
+
+- Use 'modprobe sg' for optical drive detection
