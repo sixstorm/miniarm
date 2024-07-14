@@ -9,7 +9,7 @@ DVD)
   echo "########################"
   echo $DVDCmd
   echo "########################"
-  $(DVDCmd)
+  eval "$DVDCmd"
 
   ;;
 
