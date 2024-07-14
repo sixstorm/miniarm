@@ -6,8 +6,11 @@ DVDCmd="ffmpeg -i $2 -c:v -map 0:a:0? -c:a:0 aac -b:a:0 160k -filter:a:0 'pan=st
 
 case $1 in
 DVD)
-  echo "You entered DVD"
+  echo "########################"
   echo $DVDCmd
+  echo "########################"
+  $(DVDCmd)
+
   ;;
 
 BR)
